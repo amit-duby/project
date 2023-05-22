@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>project1</title>
+<style>
+    *{
+        margin: 0;
+    padding: 0;
+    }
+    header{
+        width: 12533px;
+        height: 1253px;
+        background-color: #bbb;
+      margin: 0;
+      padding:5px 3px;
+       
+    }
+    p.box{
+ font-size: larger;
+ font-family: 'Times New Roman', Times, serif;
+ font-style: oblique;
+ font-weight: lighter;
+ padding: 12px;
+
+        color:rgba(0, 100,120, 123);
+    }
+    fieldset{
+     width: 1355px;
+     height:330px;
+   background-color: rgba(255, 255, 128, .5);
+   color:darkslategray;
+   margin: 12px ;
+   padding: 12px 13px;
+   font-size: large;
+   font-style: oblique;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: lighter;
+
+
+        
+    }
+   /* input.text{
+    background-color: sienna;
+    border: 2px solid #bfbfbf;
+    
+    
+   } */
+   input.type{
+    background-color: rgba(123, 128,126, 5);
+    color:darkslategrey;
+    font-size:medium;
+    font-weight: 600;
+    font-style: italic;
+    font-family: monospace;
+   }
+input.type2{
+    background-color: hsl(42, 5%, 64%);
+color: #bfbfbf;;
+font-size:1.2em;
+font-family:sans-serif;
+font-weight: 600;
+font-style: normal;
+
+}
+p.box1{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bolder;
+    margin: 0;
+    padding: 12px;
+}
+
+</style>
+
+</head>
+
+<body>
+    <header>
+        <p class="box">make a basic page of some content </p>
+        <form action="link.html" target="_self" method="get">
+            <p class="box1">
+            <caption>some content to give a basic knowledge of yourself</caption> </p><br><br>
+            <fieldset><br>
+                <legend>persion details</legend>
+                <p>fill tha first name ::</p>
+                <p>
+                    <label for="fname">First Name : </label>
+                    <input type="text" id="fname" name="fname">
+                </p><br>
+                <p>fill tha last Name </p>
+                <p>
+                    <label for="lname">Last Name : </label>
+                    <input class="text" type="text" id="lname" name="lname">
+                </p><br>
+                <p>select own gender: </p>
+                 <p>
+                    <label for="gender">Male</label>
+                    <input type="radio" id="gender" name="gender" value="male">
+                    <label for="gender">FeMale</label>
+                    <input type="radio" id="gender" name="gender" value="FeMale">
+                </p><br>
+                <p>fill your date of birth, date and email :: </p>
+                <p>
+                    <label for="dt bf">date of birth</label>
+                    <input type="date" id="dt bf" name="dt bf" value="date of birth">
+              
+                
+                <label for="iml">Email :</label>
+                <input type="email" id="iml" name="iml">
+                <label for="dt">DateTime</label>
+                <input type="datetime-local" id="dt" name="id">
+               </p><br>
+                <p>*******than after compleat a form click tha submit button go to submit page ********</p>
+                <p>
+                    <!-- <link rel="stylesheet" href="submit.html"> -->
+                    <label for="reset">
+                    <input class="type" type="reset" id="reset" name="reset"></label>
+                    <label for="submit">
+                    <input class="type2"type="submit" id="submit" name="submit"></label>
+
+                </p>
+                
+               <!-- <label for="male">Male</label>
+               <input type="radio" id="male" name="Male">
+               <label for="fmale">Female</label><br>
+               <input type="radio" id="fname" name="Fnmae"> -->
+               <!-- <form action="/action_page.php">
+                  <input type="radio" id="html" name="fav_language" value="HTML">
+                  <label for="html">HTML</label><br>
+                  <input type="radio" id="css" name="fav_language" value="CSS">
+                  <label for="css">CSS</label><br>
+                  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                 <label for="javascript">JavaScript</label><br><br>
+                  <input type="submit" value="Submit">
+                </form> -->
+
+            </fieldset>
+        </form>
+    </header>
+</body>
+
+</html>

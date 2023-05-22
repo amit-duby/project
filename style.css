@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ibarra Real Nova', serif;
+
+}
+
+.box{
+    width: 100vw;
+    height: 100vh;
+ background-image:linear-gradient(rgb(26, 41, 40),rgba(0,0,255,0.5)),url(photo.jpg);
+ 
+ background-position: center;
+  background-size: cover;
+  position:relative;
+}
+/* .content{
+    width: 12vw;
+    height: 20vh;
+    background-image: url(frant.jpg);
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    /* position: absolute; */
+
+
+/* }  */
+nav{
+    display: flex;
+padding: 2% 5%;
+justify-content: space-between;
+
+align-items: center;
+}
+nav img{
+    width: 120px;
+    height: 90px;
+   
+}
+ .nav-link{
+    flex: 1;
+    text-align: right;
+}
+.nav-link ul li {
+ list-style: none;
+ display: inline-block;
+ padding:8px 12px ;
+ position: relative;
+} 
+.nav-link ul li a{
+    color:brown;
+    text-decoration: none;
+    font-size: 15px;
+    /* font-family:monospace; */
+} 
+.nav-link ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: springgreen;
+    display: block;
+    margin: auto;
+    transition: 0.5;
+}
+ .nav-link ul li:hover::after{
+  width: 100%;
+  transition: 1s;
+} 
+.text img{
+width: 100vw;
+height: 52vh;
+/* /* margin-right: 10%; */
+ /* margin-left: 1%;  */
+/* text-align: center; */
+ } 
+.text h1{
+    color:rgb(118, 113, 113);
+    padding-left: 5px;
+    
+ font-style: oblique;
+
+  /* text-align: justify;
+ 
+ left: 2px; */
+ /* position: relative;  */
+ 
+  } 
+  
+ .text p{ 
+    padding-left: 5px;
+    font-size: 15px;
+ }  
+
+ 
+ @media(max-width:700px) {
+    .text p{
+        font-size: 15px;
+    }
+    .nav-link ul li {
+        display: block;
+    }
+    .nav-link  {
+        position: absolute;
+         background-color: rgb(112, 122, 131);
+        width: 200px;
+        height: 100vh;
+       
+        top: 0;
+        right: 0;
+         text-align: left;
+        z-index: 2;
+       
+
+    }
+ }  

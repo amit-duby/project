@@ -1,0 +1,18 @@
+*{
+    margin: 0 !important;
+    padding: 0;
+}
+.navbar{
+    width: 100% !important;
+    height: 50px;
+    background-color: brown;
+    color: black;
+}
+
+ /* .carousel-item{
+    height: 50vw !important; */
+/* } */
+ .img{
+     width: 100vw !important; 
+    height: 50vw;
+ }  

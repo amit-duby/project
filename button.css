@@ -1,0 +1,17 @@
+body {
+    background-color: aquamarine;
+    color: hsl(0, 25%, 63%);
+    margin: 0;
+    padding: 5px;
+}
+
+/*  textarea{
+   background-size: 21%;
+   background-color: #fff;
+   color:black; 
+}
+/*  */
+input {
+    background-color: #fff;
+    color: #ff0;
+}
